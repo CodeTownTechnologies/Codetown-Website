@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import "./app.scss"
+import Home from "../src/component/Home/Home"
+import "swiper/css/bundle";
+import Navbar from './component/navbar/Navbar';
+import AboutUs from './component/fullAboutPage/aboutus/AboutUs';
+import NotFoundPage from './component/NotFoundPage/NotFoundPage';
+// import { Route, Switch} from "react-router-dom";
+import {
+  BrowserRouter as Router,  
+  Route,
+  Link, Routes
+} from "react-router-dom";
+const App = () => {
+  return (<>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="app">
+      
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about-us" element={<AboutUs/>} />
+        <Route path="*" element={<NotFoundPage/>} />
+      </Routes>
+    
+
+   
+
+      {/* <div>
+        <Navbar />
+      </div>
+      <div className='section'>
+        <Home />
+      </div> */}
     </div>
-  );
+
+  </>
+
+  )
 }
 
-export default App;
+export default App

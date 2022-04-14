@@ -1,0 +1,31 @@
+@import "../../global.scss";
+
+.portfolioList{
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+
+  @include mobile{
+    margin-right: 20px;
+  }
+
+  &.active{ 
+    text-decoration: underline;
+    text-decoration-color:orangered;
+     text-decoration-thickness: 1px;
+     margin-top: 2px;
+     border-bottom: 3px;
+     border-width: 0 0 3px;
+  }
+  &:hover{     
+    text-decoration: underline;
+    text-decoration-color:orangered;
+    text-decoration-thickness: 1px;
+    margin-top: 2px;
+    border-bottom: 3px;
+    border-width: 0 0 3px;
+  }
+}
