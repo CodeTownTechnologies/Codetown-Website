@@ -11,7 +11,7 @@ import {
 import {AcUnit} from "@mui/icons-material/AcUnit"
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured");
+  const [selected, setSelected] = useState("mobile");
   const [data, setData] = useState([]);
   const list = [
     {

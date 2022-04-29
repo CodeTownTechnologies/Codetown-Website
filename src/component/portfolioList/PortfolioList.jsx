@@ -7,6 +7,7 @@ export default function PortfolioList({ id, title, active, setSelected }) {
       onClick={() => setSelected(id)}
     >
       {title}
+      {active && <hr width="100%" color="orangered" height=".9px" />}
     </li>
   );
 }

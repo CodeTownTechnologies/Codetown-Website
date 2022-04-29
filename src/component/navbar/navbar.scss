@@ -1,56 +1,97 @@
 .navbar {
-  color: whitesmoke;
+  color              : whitesmoke;
   /* background-color: black; */
-  height: 50px;
-  width: 100%;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  background-color: linear-gradient(
-    to top,
-    transparent 0%,
-    rgba(0, 0, 0, 0.799) 50%
-  );
+  height             : 50px;
+  width              : 100%;
+  position           : fixed;
+  z-index            : 999;
+  top                : 0;
+  background-color   : linear-gradient(to top,
+      transparent 0%,
+      rgba(0, 0, 0, 0.799) 50%);
 }
 
 .scrolled {
   background-color: black;
 }
+
 .container {
-  display: flex;
-  font-size: 14px;
-  height: 50px;
-  /* padding: 14px 50px;  */
+  display        : flex;
+  font-size      : 14px;
+  height         : 50px;
+  /* padding     : 14px 50px;  */
   justify-content: space-around;
-  align-items: center;
+  align-items    : center;
 }
 
 .left-navbar {
   cursor: pointer;
 }
 
-.right-navbar span {
-  margin: 0px 15px;
-  cursor: pointer;
+.right-navbar p {
+  margin : 0px 15px;
+  cursor : pointer;
   padding: 4px;
 
-  .route-link {
-    color: white !important;
-    text-decoration: none;
-  }
+  // .route-link {
+  //   color          : white !important;
+  //   text-decoration: none;
+  //   border-bottom  : 1px solid;
+  // }
 }
 
-.right-navbar span:hover {
-  margin: 0px 15px;
-  cursor: pointer;
-  background-color: black;
-  padding: 6px;
-  border-radius: 4px;
+.route-link {
+  color          : white !important;
+  text-decoration: none;
+  border-bottom  : 1px solid;
 }
-.right-navbar span:active {
-  margin: 0px 15px;
-  cursor: pointer;
-  background-color: black;
-  padding: 6px;
-  border-radius: 4px;
+
+.right-navbar {
+  display: flex;
 }
+
+.route-link-active {
+  line-height    : 20px;
+  border-bottom  : 1px solid;
+  text-decoration: none;
+  color          : white !important;
+  border-color   : orangered;
+}
+
+.navlink {
+  padding         : 10px;
+  background-color: black;
+  border-radius   : 3px;
+  padding-left    : 10px !important;
+  padding-right   : 10px !important;
+}
+
+// .right-navbar span:hover {
+//   cursor          : pointer;
+//   background-color: black;
+//   padding         : 6px;
+//   border-radius   : 4px;
+// }
+
+// .right-navbar span:active {
+//   margin          : 0px 15px;
+//   cursor          : pointer;
+//   background-color: black;
+//   padding         : 6px;
+//   border-radius   : 4px;
+// }
+
+.route-link-active {
+  cursor            : pointer;
+  // text-decoration: none;
+  // border-bottom  : 1px solid;
+}
+
+// .route-link-active {
+//   cursor          : pointer;
+//   background-color: black;
+//   padding         : 6px;
+//   color           : white !important;
+//   border-radius   : 4px;
+//   text-decoration: none;
+// }
