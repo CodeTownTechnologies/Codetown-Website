@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 div,
@@ -26,6 +26,44 @@ Thank you for your interest.
 
 /*============ COMMON STYLES. DON'T FORGET TO COPY THEM AS WELL! ===========*/
 
+.footer-search-1 {
+  display: flex;
+}
+
+.right-navbar {
+  display: flex;
+}
+
+.copyright-text {
+  float: right;
+}
+
+.right-navbar p {
+  margin: 0px 10px !important;
+  cursor: pointer;
+  padding: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt !important;
+}
+.route-link {
+  color: white !important;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.social-icon {
+  margin-right: 10px;
+}
+
+div#social-buttons {
+  justify-content: end !important;
+  float: right !important;
+}
+
+.footer-section-1 {
+  justify-content: end;
+}
+
 footer.site-footer {
   padding: 30px 15px;
   background: #222222;
@@ -34,7 +72,7 @@ footer.site-footer {
 }
 
 div#footer-container {
-  width: 868px;
+  width: 90%;
   margin: 0 auto;
   transition: all 0.2s ease;
 }
@@ -42,14 +80,14 @@ div#footer-container {
 div#footer-grid {
   display: flex;
   align-items: stretch;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 /*============ footer 2 columns ===========*/
 
 footer#footer-2-cols div#left-footer-section {
   flex-basis: 50%;
-  border-right: 1px solid #444444;
+  /* border-right: 1px solid #444444; */
   padding-right: 30px;
 }
 
@@ -63,12 +101,12 @@ footer#footer-2-cols div#copyright-information div#footer-logo-section {
 }
 
 footer#footer-2-cols div#copyright-information div#footer-logo {
-  width: 30px;
+  width: 100%;
   margin-right: 30px;
 }
 
 footer#footer-2-cols div#footer-search input {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: 2px solid #999999;
   background: #2a2a2a;
   outline: none;
@@ -77,7 +115,7 @@ footer#footer-2-cols div#footer-search input {
 }
 
 footer#footer-2-cols div#footer-search button {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: 2px solid #999999;
   background: transparent;
   color: #cecece;
@@ -296,7 +334,7 @@ footer#footer-2-cols div#copyright-information div#social-buttons i.fa:hover {
 
 footer#footer-3-cols div#left-footer-section {
   flex-basis: 33.33%;
-  border-right: 1px solid #444444;
+  /* border-right: 1px solid #444444; */
   padding-right: 30px;
 }
 
@@ -308,13 +346,14 @@ footer#footer-3-cols div#second-footer-section {
 }
 
 footer#footer-3-cols div#right-footer-section {
-  flex-basis: 33.33%;
+  flex-basis: 66.33%;
   padding-left: 30px;
 }
 
 footer#footer-3-cols div#footer-logo-section {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 footer#footer-3-cols div#footer-logo {
@@ -323,7 +362,7 @@ footer#footer-3-cols div#footer-logo {
 }
 
 footer#footer-3-cols div#footer-search input {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: 2px solid #999999;
   background: #2a2a2a;
   outline: none;
@@ -333,7 +372,7 @@ footer#footer-3-cols div#footer-search input {
 }
 
 footer#footer-3-cols div#footer-search button {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: 2px solid #999999;
   background: transparent;
   color: #cecece;
@@ -604,7 +643,7 @@ footer#footer-4-cols div#footer-logo {
 }
 
 footer#footer-4-cols div#footer-search input {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: 2px solid #999999;
   background: #2a2a2a;
   outline: none;
@@ -614,7 +653,7 @@ footer#footer-4-cols div#footer-search input {
 }
 
 footer#footer-4-cols div#footer-search button {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: 2px solid #999999;
   background: transparent;
   color: #cecece;

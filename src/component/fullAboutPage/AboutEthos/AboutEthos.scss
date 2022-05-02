@@ -1,6 +1,6 @@
 .main-container11 {
   display: flex;
-  margin: 50px 200px;
+  margin: 0px 200px;
 
   .right-main-container11 {
     flex: 1;
@@ -24,13 +24,13 @@
   height: 370px !important;
   display: flex;
   width: 280px !important;
-  background-color: whitesmoke !important;
+  // background-color: whitesmoke !important;
   display: flex;
   border-radius: 2px;
   align-items: center;
   justify-content: center;
-  box-shadow: 6px -14px 32px 4px rgba(0,0,0,0.6);
--webkit-box-shadow: 6px -14px 32px 4px rgba(0,0,0,0.6);
--moz-box-shadow: 6px -14px 32px 4px rgba(0,0,0,0.6);
-border-radius: 4px;
+  // box-shadow: 6px -14px 32px 4px rgba(0,0,0,0.6);
+// -webkit-box-shadow: 6px -14px 32px 4px rgba(0,0,0,0.6);
+// -moz-box-shadow: 6px -14px 32px 4px rgba(0,0,0,0.6);
+// border-radius: 4px;
 }
